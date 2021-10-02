@@ -1016,4 +1016,8 @@
 
     <!-- Shows the required view for in-display fingerprint -->
     <bool name="config_supportsInDisplayFingerprint">true</bool>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">true</bool>
+    <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
 </resources>
