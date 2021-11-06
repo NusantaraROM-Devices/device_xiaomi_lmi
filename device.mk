@@ -204,6 +204,13 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_lmi \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_lmi
 
+#Google Camera GO
+PRODUCT_PACKAGES += \
+    GCamGO
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/GCamGO/privapp-permissions-gcamgo.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-gcamgo.xml
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
