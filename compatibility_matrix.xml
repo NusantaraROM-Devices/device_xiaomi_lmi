@@ -42,14 +42,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-    <name>android.hardware.usb</name>
-    <version>1.0-3</version>
-    <interface>
-        <name>IUsb</name>
-        <instance>default</instance>
-    </interface>
-    </hal>
     <hal format="hidl" optional="false">
         <name>android.hidl.allocator</name>
         <version>1.0</version>
