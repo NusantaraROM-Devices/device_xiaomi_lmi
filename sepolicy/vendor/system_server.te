@@ -3,5 +3,8 @@ allow system_server vendor_sysfs_battery_supply:file rw_file_perms;
 # Allow system_server to read Fast Charging status
 allow system_server vendor_sysfs_battery_supply:file { getattr open read };
 
+# Allow system_server to access Fast Charging node
+allow system_server vendor_sysfs_usb_supply:file { getattr open read write };
+
 # Allow system_server to set persist_camera_prop
 get_prop(system_server, vendor_persist_camera_prop)
