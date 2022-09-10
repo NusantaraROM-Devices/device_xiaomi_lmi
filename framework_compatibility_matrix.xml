@@ -24,6 +24,22 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
+    <name>android.hardware.bluetooth</name>
+    <version>1.1</version>
+    <interface>
+        <name>IBluetoothHci</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.bluetooth.audio</name>
+    <version>2.1</version>
+    <interface>
+        <name>IBluetoothAudioProvidersFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
     <name>android.hardware.cas</name>
     <version>1.0-2</version>
     <interface>
@@ -157,6 +173,14 @@
     <version>1.0-5</version>
     <interface>
         <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>com.dsi.ant</name>
+    <version>1.0</version>
+    <interface>
+        <name>IAnt</name>
         <instance>default</instance>
     </interface>
 </hal>
