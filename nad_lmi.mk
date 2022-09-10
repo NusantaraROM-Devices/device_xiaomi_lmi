@@ -28,8 +28,8 @@ EXTRA_FOD_ANIMATIONS := true
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := nad_lmi
 PRODUCT_DEVICE := lmi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi K30 Pro
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := POCO F2 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_CHARACTERISTICS := nosdcard
