@@ -1091,6 +1091,12 @@ vendor/lib64/libqmiservices.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 
+# QCV
+vendor/bin/init.qti.qcv.sh
+vendor/etc/init/init.qti.qcv.rc
+vendor/lib64/libsoc_helper.so
+vendor/lib64/libsoc_helper_jni.so
+
 # QTEE Connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
